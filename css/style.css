@@ -36,6 +36,7 @@ a:hover {
 }
 
 h1 {
+ 
   font-size: 3em;
 }
 
@@ -181,13 +182,14 @@ img {
   border-radius: 2em;
   padding: 1em 2em;
   margin: 1em;
-  border: 1px solid rgba(0, 51, 102, 1);
-  color: rgba(0, 51, 102, 1);
+  border: 1px solid rgb(23, 213, 247);
+  color: rgb(23, 213, 247);
+  /*color: rgba(0, 51, 102, 1); */
   /* transition: all .4s ease-out; */
 }
 
 .button:hover {
-  background: rgba(0, 51, 102, 1);
+  background: rgb(23, 213, 247);
   color: rgba(255, 255, 255, 1);
 }
 
@@ -201,6 +203,7 @@ img {
 .hero h1 {
   max-width: 13em;
   margin: 0 auto 1em auto;
+  font-family: "operetta-12", serif;
 }
 
 .hero p {
