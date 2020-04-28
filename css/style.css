@@ -198,6 +198,7 @@ img {
 .hero {
   padding: 10% 1em;
   text-align: center;
+  
 }
 
 .hero h1 {
@@ -449,6 +450,10 @@ section {
   transform: translateY(0);
 }
 
+section.text-centered {
+  padding-top: 0;
+}
 
-
-
+.black.hero.revealer {
+  background-color: #000;
+}
