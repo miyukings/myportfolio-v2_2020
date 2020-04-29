@@ -339,7 +339,8 @@ section {
 }
 
 .page-projectdetail .hero {
-  background: #dedede;
+  /* background: #dedede; */
+  background: #fff;
 }
 
 .projectinfo {
