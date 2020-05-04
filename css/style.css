@@ -13,8 +13,10 @@
 */
 
 body {
-  font-family: "Rubik", Helvetica, Arial, sans-serif;
+  /* font-family: "cronos-pro", sans-serif; */
+  font-family: utopia-std, serif;
   font-weight: 400;
+  letter-spacing: 0.05em;
   font-size: 87.5%; /* 14px */
   color: rgba(0, 0, 0, 0.7);
   padding: 1rem;
@@ -27,21 +29,36 @@ p {
 }
 
 a {
-  color: rgba(0, 51, 102, 0.8);
+  color: rgb(102, 63, 43);
   text-decoration: none;
 }
 
 a:hover {
-  color: rgba(0, 51, 102, 1);
+  color: rgb(102, 63, 43);
 }
 
-h1 {
- 
+section.hero h1 {
   font-size: 3em;
+  font-family: "cronos-pro", sans-serif;
+  color: rgb(95, 67, 62);
+}
+section.hero p {
+  font-size: 1.8em;
+  font-family: "cronos-pro", sans-serif;
+  font-weight: 200;
+  color: rgb(163, 129, 116);
 }
 
 h1,h2,h3,h4,h5,h6 {
   font-weight: 400;
+  font-family: "cronos-pro", sans-serif;
+}
+h1.headline {
+  font-family: utopia-std, serif;
+  font-size: 3.5em;
+}
+h2.subheadline {
+  font-style: italic;
 }
 
 /* HELPER CLASSES */
@@ -182,14 +199,14 @@ img {
   border-radius: 2em;
   padding: 1em 2em;
   margin: 1em;
-  border: 1px solid rgb(23, 213, 247);
-  color: rgb(23, 213, 247);
-  /*color: rgba(0, 51, 102, 1); */
+  border: 1px solid rgb(102, 63, 43);
+  /* color: rgb(23, 213, 247); */
+  color: rgb(102, 63, 43);
   /* transition: all .4s ease-out; */
 }
 
 .button:hover {
-  background: rgb(23, 213, 247);
+  background: rgb(110, 65, 43);
   color: rgba(255, 255, 255, 1);
 }
 
@@ -198,6 +215,14 @@ img {
 .hero {
   padding: 10% 1em;
   text-align: center;
+  
+}
+main {
+  background-image: url(../img/bracelet1600x1000.png); 
+}
+
+main img {
+  max-width: 100%;
   
 }
 
@@ -384,11 +409,16 @@ section {
 
 .meta-list {
   list-style: none;
+  font-family: "cronos-pro", sans-serif;
 }
 
 .meta-list span {
   font-weight: bold;
 }
+
+
+
+
 
 @media (min-width: 768px){
 
@@ -451,9 +481,6 @@ section {
   transform: translateY(0);
 }
 
-section.text-centered {
-  padding-top: 0;
-}
 
 .black.hero.revealer {
   background-color: #000;
