@@ -212,17 +212,17 @@ img {
 
 /* SECTIONS */
 
-.hero {
+.home.main {
   padding: 10% 1em;
   text-align: center;
   background-image: url(../img/bracelet1600x1000.png); 
   background-repeat: no-repeat;
-  background-size: contain;
+  /* background-size: contain; */
   background-position: center; 
  
 }
 
-.hero img {
+.home.main img {
   margin: 10%;
 }
 
@@ -381,7 +381,7 @@ section {
   font-size: 2em;
   margin-bottom: 1.5em;
   color: rgba(0,0,0,.5);
-  font-weight: 40normal0;
+  font-weight: 400;
 }
 
 .projectinfo p {
