@@ -215,16 +215,17 @@ img {
 .hero {
   padding: 10% 1em;
   text-align: center;
-  
-}
-main {
   background-image: url(../img/bracelet1600x1000.png); 
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; 
+ 
 }
 
-main img {
-  max-width: 100%;
-  
+.hero img {
+  margin: 10%;
 }
+
 
 .hero h1 {
   max-width: 13em;
