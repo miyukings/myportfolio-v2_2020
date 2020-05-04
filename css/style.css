@@ -19,7 +19,7 @@ body {
   letter-spacing: 0.05em;
   font-size: 87.5%; /* 14px */
   color: rgba(0, 0, 0, 0.7);
-  padding: 1rem;
+  padding: 1em;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -37,12 +37,12 @@ a:hover {
   color: rgb(102, 63, 43);
 }
 
-section.hero h1 {
+section .home.main h1 {
   font-size: 3em;
   font-family: "cronos-pro", sans-serif;
   color: rgb(95, 67, 62);
 }
-section.hero p {
+section.top.hero p {
   font-size: 1.8em;
   font-family: "cronos-pro", sans-serif;
   font-weight: 200;
@@ -212,25 +212,23 @@ img {
 
 /* SECTIONS */
 
-.home.main {
+section .home.main {
   padding: 10% 1em;
   text-align: center;
   background-image: url(../img/bracelet1600x1000.png); 
   background-repeat: no-repeat;
-  /* background-size: contain; */
+  background-size: contain;
   background-position: center; 
  
 }
 
-.home.main img {
-  margin: 10%;
-}
+
 
 
 .hero h1 {
   max-width: 13em;
   margin: 0 auto 1em auto;
-  font-family: "operetta-12", serif;
+  font-family: "cronos-pro", sans-serif;
 }
 
 .hero p {
@@ -381,7 +379,7 @@ section {
   font-size: 2em;
   margin-bottom: 1.5em;
   color: rgba(0,0,0,.5);
-  font-weight: 400;
+  font-weight: 40normal0;
 }
 
 .projectinfo p {
