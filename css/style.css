@@ -41,7 +41,9 @@ section.home.main h1 {
   font-size: 3em;
   font-family: "cronos-pro", sans-serif;
   color: rgb(95, 67, 62);
+  margin: 0;
 }
+
 section.home.main p {
   font-size: 1.8em;
   font-family: "cronos-pro", sans-serif;
@@ -78,7 +80,7 @@ h2.subheadline {
 }
 .container.mini {
   max-width: 600px;
-  margin: 200px auto 150px;
+  margin: 160px auto 140px;
   
 }
 
@@ -222,16 +224,39 @@ img {
 
 /* SECTIONS */
 
+
 section.home.main {
   padding: 5% 1em;
   text-align: center;
   background-image: url(../img/bracelet1600x1000.png); 
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;
+  /* background-position: center; */
   height: 600px; 
 }
 
+@media (max-width: 768px) {
+  section.home.main {
+    width: 450px;
+    height: 350px;
+    margin-top: 80px;
+    margin-bottom: 0;
+   
+  }
+ .container.mini {
+   margin: 80px auto 40px;
+   width: 300px;
+ }
+.container.mini h1 {
+  font-size: .7em;
+  margin: 0;
+}
+.container.mini {
+  font-size: .5em;
+ 
+}
+  
+}
 
 
 
