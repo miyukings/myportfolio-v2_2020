@@ -37,17 +37,21 @@ a:hover {
   color: rgb(102, 63, 43);
 }
 
-section .home.main h1 {
+section.home.main h1 {
   font-size: 3em;
   font-family: "cronos-pro", sans-serif;
   color: rgb(95, 67, 62);
 }
-section.top.hero p {
+section.home.main p {
   font-size: 1.8em;
   font-family: "cronos-pro", sans-serif;
   font-weight: 200;
   color: rgb(163, 129, 116);
+  margin-left: auto;
+  margin-right: auto;
 }
+
+
 
 h1,h2,h3,h4,h5,h6 {
   font-weight: 400;
@@ -71,6 +75,11 @@ h2.subheadline {
 .container {
   max-width: 1000px;
   margin: 0 auto;
+}
+.container.mini {
+  max-width: 600px;
+  margin: 200px auto 150px;
+  
 }
 
 /* STRUCTURE */
@@ -212,14 +221,14 @@ img {
 
 /* SECTIONS */
 
-section .home.main {
-  padding: 10% 1em;
+section.home.main {
+  padding: 5% 1em;
   text-align: center;
   background-image: url(../img/bracelet1600x1000.png); 
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center; 
- 
+  background-position: center;
+  height: 600px; 
 }
 
 
