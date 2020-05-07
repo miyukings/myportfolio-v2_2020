@@ -224,41 +224,42 @@ img {
 
 /* SECTIONS */
 
-
+/* HOME SECTION */
 section.home.main {
   padding: 5% 1em;
   text-align: center;
   background-image: url(../img/bracelet1600x1000.png); 
   background-repeat: no-repeat;
   background-size: contain;
-  /* background-position: center; */
-  height: 600px; 
 }
+
+
 
 @media (max-width: 768px) {
   section.home.main {
     width: 450px;
     height: 350px;
-    margin-top: 80px;
+    /* margin-top: 80px; */
     margin-bottom: 0;
+    background-size: 175%;
+    background-position: center;
    
   }
  .container.mini {
-   margin: 80px auto 40px;
-   width: 300px;
+  margin-top:  110px;
+  padding-top: 0;
+  padding-bottom: 50px;
+   width: 450px;
  }
 .container.mini h1 {
-  font-size: .7em;
+  font-size: 1em;
   margin: 0;
 }
 .container.mini {
-  font-size: .5em;
+  font-size: .8em;
  
+} 
 }
-  
-}
-
-
 
 .hero h1 {
   max-width: 13em;
@@ -269,6 +270,16 @@ section.home.main {
 .hero p {
   margin: 0 auto 1em auto;
 }
+
+
+/* SECTION ABOUT */
+.narrow {
+  max-width: 600px;
+  /* text-align: center; */
+}
+
+ 
+
 
 /* ANIMATIONS */
 
@@ -451,9 +462,6 @@ section {
 }
 
 
-
-
-
 @media (min-width: 768px){
 
   .projectinfo p {
@@ -495,7 +503,7 @@ section {
 
 /* REVEALER */
 .revealer * {
-  transition: all 1s ease;
+  transition: all .6s ease;
   opacity: 0;
   transform: translateY(-20px);
 }
